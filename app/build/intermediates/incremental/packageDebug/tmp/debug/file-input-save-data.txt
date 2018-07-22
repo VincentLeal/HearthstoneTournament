@@ -1,19 +1,7 @@
 #Internal package file, do not edit.
-#Sun Jul 22 20:34:45 CEST 2018
-1.base=C\:\\Users\\Vince\\Desktop\\Android APP\\Hearthstone\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\134
-2.path=classes.dex
+#Mon Jul 23 00:40:34 CEST 2018
 0.baseType=DIRECTORY
-3.baseType=DIRECTORY
-2.base=C\:\\Users\\Vince\\Desktop\\Android APP\\Hearthstone\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\132
-3.set=DEX
-2.set=DEX
-1.baseType=DIRECTORY
-3.path=classes.dex
-count=4
-1.set=DEX
+0.base=C\:\\Users\\Vince\\Desktop\\Android APP\\Hearthstone\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\136
 0.path=classes.dex
-3.base=C\:\\Users\\Vince\\Desktop\\Android APP\\Hearthstone\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\133
 0.set=DEX
-0.base=C\:\\Users\\Vince\\Desktop\\Android APP\\Hearthstone\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\131
-2.baseType=DIRECTORY
-1.path=classes.dex
+count=1
