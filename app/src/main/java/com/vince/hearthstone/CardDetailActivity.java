@@ -102,7 +102,7 @@ public class CardDetailActivity extends AppCompatActivity {
                             outputStream.write((stringBuilder + card.getName()).getBytes());
 
                             outputStream.close();
-                            Toast.makeText(context, "OK", Toast.LENGTH_LONG).show();
+                            Toast.makeText(context, "Ajouté", Toast.LENGTH_LONG).show();
                         }
                     }
 

@@ -86,7 +86,6 @@ public class CardsActivity extends AppCompatActivity implements Adapter.ItemClic
                             setAdapter(context);
                             videoView.setVisibility(View.INVISIBLE);
                             recyclerView.setVisibility(View.VISIBLE);
-                            Toast.makeText(context, "cardList size " + cardsList.size() , Toast.LENGTH_SHORT).show();
                             Log.d("names => " , nameResponse.toString());
 
                         } catch (JSONException e) {

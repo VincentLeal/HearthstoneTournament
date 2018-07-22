@@ -68,6 +68,7 @@ public class DeckViewActivity extends AppCompatActivity implements AdapterString
         Intent intent = new Intent(this, CardDetailStringActivity.class);
         intent.putExtra("card", cardsList.get(position));
         startActivity(intent);
+        startActivity(intent);
     }
 
     public void setAdapter(Context context){
