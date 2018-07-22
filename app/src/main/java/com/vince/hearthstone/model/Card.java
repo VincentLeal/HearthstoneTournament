@@ -10,7 +10,6 @@ public class Card {
     private String rarity;
     private String img;
     private String imgGold;
-    private String locale;
 
 
     // Getter Methods
@@ -52,9 +51,6 @@ public class Card {
         return imgGold;
     }
 
-    public String getLocale() {
-        return locale;
-    }
 
     // Setter Methods
 
@@ -95,9 +91,6 @@ public class Card {
         this.imgGold = imgGold;
     }
 
-    public void setLocale(String locale) {
-        this.locale = locale;
-    }
 
     @Override
     public String toString() {
@@ -111,7 +104,6 @@ public class Card {
                 ", rarity='" + rarity + '\'' +
                 ", img='" + img + '\'' +
                 ", imgGold='" + imgGold + '\'' +
-                ", locale='" + locale + '\'' +
                 '}';
     }
 }

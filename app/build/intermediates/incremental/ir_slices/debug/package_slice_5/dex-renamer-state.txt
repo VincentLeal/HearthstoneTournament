@@ -1,0 +1,4 @@
+#Sun Jul 22 20:44:42 CEST 2018
+base.0=C\:\\Users\\Vince\\Desktop\\Android APP\\Hearthstone\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\125
+path.0=classes.dex
+renamed.0=classes.dex

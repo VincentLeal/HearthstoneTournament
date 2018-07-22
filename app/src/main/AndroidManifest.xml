@@ -3,6 +3,8 @@
     package="com.vince.hearthstone">
 
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -19,7 +21,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".CardsActivity" />
-        <activity android:name=".CardDetailActivity"></activity>
+        <activity android:name=".CardDetailActivity" />
+        <activity android:name=".DeckViewActivity" />
+        <activity android:name=".CardDetailStringActivity"></activity>
     </application>
 
 </manifest>

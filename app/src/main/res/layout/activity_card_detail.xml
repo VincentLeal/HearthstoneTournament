@@ -5,17 +5,26 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".CardDetailActivity"
-    android:background="@drawable/bg_card_detail">
+    android:background="@drawable/bg_hs_card_detail">
 
     <ImageView
         android:id="@+id/cardImage"
-        android:layout_width="300dp"
-        android:layout_height="300dp"
+        android:layout_width="230.25dp"
+        android:layout_height="348.75dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="30dp"
-        android:src="@drawable/cardback_legend"/>
+        android:layout_marginTop="40dp"
+        android:scaleType="fitXY"
+        />
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
 
     <TextView
         android:id="@+id/descriptionTextView"
