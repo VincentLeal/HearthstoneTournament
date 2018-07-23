@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Vince\Desktop\Android APP\Hearthstone\app\src\main\AndroidManifest.xml:2:1-31:12
-INJECTED from C:\Users\Vince\Desktop\Android APP\Hearthstone\app\src\main\AndroidManifest.xml:2:1-31:12
-INJECTED from C:\Users\Vince\Desktop\Android APP\Hearthstone\app\src\main\AndroidManifest.xml:2:1-31:12
-INJECTED from C:\Users\Vince\Desktop\Android APP\Hearthstone\app\src\main\AndroidManifest.xml:2:1-31:12
+ADDED from C:\Users\Vince\Desktop\Android APP\Hearthstone\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\Vince\Desktop\Android APP\Hearthstone\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\Vince\Desktop\Android APP\Hearthstone\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\Vince\Desktop\Android APP\Hearthstone\app\src\main\AndroidManifest.xml:2:1-33:12
 MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Vince\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\58511b23b07b14ec82b8c1874335f6d0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Vince\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\d9fc1246cbd7ecfa089115428edb2b8e\AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Vince\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\b7b90c53a631118db89df038d5a7a5d4\AndroidManifest.xml:17:1-22:12
@@ -23,20 +23,20 @@ MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Vince\.gradle\
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Vince\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\917f8eade978e4de3264a7760b4bd5fa\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Vince\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\07a2b6323741e74aa8ef4d269992ac64\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Vince\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\8c25ea16c5b93ed5197645de0a2949f4\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\Vince\Desktop\Android APP\Hearthstone\app\src\main\AndroidManifest.xml:2:1-31:12
-INJECTED from C:\Users\Vince\Desktop\Android APP\Hearthstone\app\src\main\AndroidManifest.xml:2:1-31:12
-INJECTED from C:\Users\Vince\Desktop\Android APP\Hearthstone\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Users\Vince\Desktop\Android APP\Hearthstone\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\Vince\Desktop\Android APP\Hearthstone\app\src\main\AndroidManifest.xml:2:1-33:12
+INJECTED from C:\Users\Vince\Desktop\Android APP\Hearthstone\app\src\main\AndroidManifest.xml:2:1-33:12
 	package
 		ADDED from C:\Users\Vince\Desktop\Android APP\Hearthstone\app\src\main\AndroidManifest.xml:3:5-36
 		INJECTED from C:\Users\Vince\Desktop\Android APP\Hearthstone\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Vince\Desktop\Android APP\Hearthstone\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\Vince\Desktop\Android APP\Hearthstone\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Vince\Desktop\Android APP\Hearthstone\app\src\main\AndroidManifest.xml:2:1-31:12
+		ADDED from C:\Users\Vince\Desktop\Android APP\Hearthstone\app\src\main\AndroidManifest.xml:2:1-33:12
 		INJECTED from C:\Users\Vince\Desktop\Android APP\Hearthstone\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\Vince\Desktop\Android APP\Hearthstone\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Vince\Desktop\Android APP\Hearthstone\app\src\main\AndroidManifest.xml:2:1-31:12
+		ADDED from C:\Users\Vince\Desktop\Android APP\Hearthstone\app\src\main\AndroidManifest.xml:2:1-33:12
 		INJECTED from C:\Users\Vince\Desktop\Android APP\Hearthstone\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\Vince\Desktop\Android APP\Hearthstone\app\src\main\AndroidManifest.xml:2:11-69
@@ -64,8 +64,12 @@ uses-permission#android.permission.REQUEST_INSTALL_PACKAGES
 ADDED from C:\Users\Vince\Desktop\Android APP\Hearthstone\app\src\main\AndroidManifest.xml:9:5-83
 	android:name
 		ADDED from C:\Users\Vince\Desktop\Android APP\Hearthstone\app\src\main\AndroidManifest.xml:9:22-80
+uses-permission#android.permission.DOWNLOAD_WITHOUT_NOTIFICATION
+ADDED from C:\Users\Vince\Desktop\Android APP\Hearthstone\app\src\main\AndroidManifest.xml:10:5-88
+	android:name
+		ADDED from C:\Users\Vince\Desktop\Android APP\Hearthstone\app\src\main\AndroidManifest.xml:10:22-85
 application
-ADDED from C:\Users\Vince\Desktop\Android APP\Hearthstone\app\src\main\AndroidManifest.xml:11:5-29:19
+ADDED from C:\Users\Vince\Desktop\Android APP\Hearthstone\app\src\main\AndroidManifest.xml:13:5-31:19
 MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Vince\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\d9fc1246cbd7ecfa089115428edb2b8e\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\Vince\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\d9fc1246cbd7ecfa089115428edb2b8e\AndroidManifest.xml:9:5-20
 MERGED from [com.amitshekhar.android:android-networking:0.1.0] C:\Users\Vince\.gradle\caches\transforms-1\files-1.1\android-networking-0.1.0.aar\e19a7efb58ad49f60f006d427c0d7d05\AndroidManifest.xml:27:5-31:19
@@ -75,47 +79,47 @@ MERGED from [com.facebook.stetho:stetho-okhttp3:1.5.0] C:\Users\Vince\.gradle\ca
 MERGED from [com.facebook.stetho:stetho:1.5.0] C:\Users\Vince\.gradle\caches\transforms-1\files-1.1\stetho-1.5.0.aar\f3e0ca479483805a317c39a18746a2bf\AndroidManifest.xml:11:5-20
 MERGED from [com.facebook.stetho:stetho:1.5.0] C:\Users\Vince\.gradle\caches\transforms-1\files-1.1\stetho-1.5.0.aar\f3e0ca479483805a317c39a18746a2bf\AndroidManifest.xml:11:5-20
 	android:supportsRtl
-		ADDED from C:\Users\Vince\Desktop\Android APP\Hearthstone\app\src\main\AndroidManifest.xml:16:9-35
+		ADDED from C:\Users\Vince\Desktop\Android APP\Hearthstone\app\src\main\AndroidManifest.xml:18:9-35
 	android:label
-		ADDED from C:\Users\Vince\Desktop\Android APP\Hearthstone\app\src\main\AndroidManifest.xml:14:9-41
+		ADDED from C:\Users\Vince\Desktop\Android APP\Hearthstone\app\src\main\AndroidManifest.xml:16:9-41
 	android:roundIcon
-		ADDED from C:\Users\Vince\Desktop\Android APP\Hearthstone\app\src\main\AndroidManifest.xml:15:9-54
+		ADDED from C:\Users\Vince\Desktop\Android APP\Hearthstone\app\src\main\AndroidManifest.xml:17:9-54
 	android:icon
-		ADDED from C:\Users\Vince\Desktop\Android APP\Hearthstone\app\src\main\AndroidManifest.xml:13:9-43
+		ADDED from C:\Users\Vince\Desktop\Android APP\Hearthstone\app\src\main\AndroidManifest.xml:15:9-43
 	android:allowBackup
-		ADDED from C:\Users\Vince\Desktop\Android APP\Hearthstone\app\src\main\AndroidManifest.xml:12:9-35
+		ADDED from C:\Users\Vince\Desktop\Android APP\Hearthstone\app\src\main\AndroidManifest.xml:14:9-35
 	android:theme
-		ADDED from C:\Users\Vince\Desktop\Android APP\Hearthstone\app\src\main\AndroidManifest.xml:17:9-40
+		ADDED from C:\Users\Vince\Desktop\Android APP\Hearthstone\app\src\main\AndroidManifest.xml:19:9-40
 activity#com.vince.hearthstone.MainActivity
-ADDED from C:\Users\Vince\Desktop\Android APP\Hearthstone\app\src\main\AndroidManifest.xml:18:9-24:20
+ADDED from C:\Users\Vince\Desktop\Android APP\Hearthstone\app\src\main\AndroidManifest.xml:20:9-26:20
 	android:name
-		ADDED from C:\Users\Vince\Desktop\Android APP\Hearthstone\app\src\main\AndroidManifest.xml:18:19-47
+		ADDED from C:\Users\Vince\Desktop\Android APP\Hearthstone\app\src\main\AndroidManifest.xml:20:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Vince\Desktop\Android APP\Hearthstone\app\src\main\AndroidManifest.xml:19:13-23:29
+ADDED from C:\Users\Vince\Desktop\Android APP\Hearthstone\app\src\main\AndroidManifest.xml:21:13-25:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Vince\Desktop\Android APP\Hearthstone\app\src\main\AndroidManifest.xml:20:17-69
+ADDED from C:\Users\Vince\Desktop\Android APP\Hearthstone\app\src\main\AndroidManifest.xml:22:17-69
 	android:name
-		ADDED from C:\Users\Vince\Desktop\Android APP\Hearthstone\app\src\main\AndroidManifest.xml:20:25-66
+		ADDED from C:\Users\Vince\Desktop\Android APP\Hearthstone\app\src\main\AndroidManifest.xml:22:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Vince\Desktop\Android APP\Hearthstone\app\src\main\AndroidManifest.xml:22:17-77
+ADDED from C:\Users\Vince\Desktop\Android APP\Hearthstone\app\src\main\AndroidManifest.xml:24:17-77
 	android:name
-		ADDED from C:\Users\Vince\Desktop\Android APP\Hearthstone\app\src\main\AndroidManifest.xml:22:27-74
+		ADDED from C:\Users\Vince\Desktop\Android APP\Hearthstone\app\src\main\AndroidManifest.xml:24:27-74
 activity#com.vince.hearthstone.CardsActivity
-ADDED from C:\Users\Vince\Desktop\Android APP\Hearthstone\app\src\main\AndroidManifest.xml:25:9-51
+ADDED from C:\Users\Vince\Desktop\Android APP\Hearthstone\app\src\main\AndroidManifest.xml:27:9-51
 	android:name
-		ADDED from C:\Users\Vince\Desktop\Android APP\Hearthstone\app\src\main\AndroidManifest.xml:25:19-48
+		ADDED from C:\Users\Vince\Desktop\Android APP\Hearthstone\app\src\main\AndroidManifest.xml:27:19-48
 activity#com.vince.hearthstone.CardDetailActivity
-ADDED from C:\Users\Vince\Desktop\Android APP\Hearthstone\app\src\main\AndroidManifest.xml:26:9-56
+ADDED from C:\Users\Vince\Desktop\Android APP\Hearthstone\app\src\main\AndroidManifest.xml:28:9-56
 	android:name
-		ADDED from C:\Users\Vince\Desktop\Android APP\Hearthstone\app\src\main\AndroidManifest.xml:26:19-53
+		ADDED from C:\Users\Vince\Desktop\Android APP\Hearthstone\app\src\main\AndroidManifest.xml:28:19-53
 activity#com.vince.hearthstone.DeckViewActivity
-ADDED from C:\Users\Vince\Desktop\Android APP\Hearthstone\app\src\main\AndroidManifest.xml:27:9-54
+ADDED from C:\Users\Vince\Desktop\Android APP\Hearthstone\app\src\main\AndroidManifest.xml:29:9-54
 	android:name
-		ADDED from C:\Users\Vince\Desktop\Android APP\Hearthstone\app\src\main\AndroidManifest.xml:27:19-51
+		ADDED from C:\Users\Vince\Desktop\Android APP\Hearthstone\app\src\main\AndroidManifest.xml:29:19-51
 activity#com.vince.hearthstone.CardDetailStringActivity
-ADDED from C:\Users\Vince\Desktop\Android APP\Hearthstone\app\src\main\AndroidManifest.xml:28:9-71
+ADDED from C:\Users\Vince\Desktop\Android APP\Hearthstone\app\src\main\AndroidManifest.xml:30:9-71
 	android:name
-		ADDED from C:\Users\Vince\Desktop\Android APP\Hearthstone\app\src\main\AndroidManifest.xml:28:19-59
+		ADDED from C:\Users\Vince\Desktop\Android APP\Hearthstone\app\src\main\AndroidManifest.xml:30:19-59
 uses-sdk
 INJECTED from C:\Users\Vince\Desktop\Android APP\Hearthstone\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Vince\Desktop\Android APP\Hearthstone\app\src\main\AndroidManifest.xml
