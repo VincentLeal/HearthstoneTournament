@@ -40,7 +40,7 @@ public class CardDetailActivity extends AppCompatActivity {
         cardsList = new ArrayList<>();
         card =  gson.fromJson(getIntent().getStringExtra("card"), Card.class);
 
-        Toast.makeText(this, "Type = " + (card.getType()), Toast.LENGTH_SHORT).show();
+        //Toast.makeText(this, "Type = " + (card.getType()), Toast.LENGTH_SHORT).show();
         if (card.getImg() != null){
             Picasso.with(this).load(card.getImg()).placeholder(R.drawable.cardback_legend)
                     .error(R.drawable.cardback_legend)
@@ -56,6 +56,7 @@ public class CardDetailActivity extends AppCompatActivity {
 
 
                 try {
+
                     FILE = new File(Environment.getExternalStorageDirectory().getPath() + "/android/data/" + getPackageName() + "/" + "Deck.txt");
 
                     StringBuilder stringBuilder = new StringBuilder();
@@ -103,6 +104,7 @@ public class CardDetailActivity extends AppCompatActivity {
 
                             outputStream.close();
                             Toast.makeText(context, "Ajouté", Toast.LENGTH_LONG).show();
+                            Analytics.trackEvent(card.getName() + "added");
                         }
                     }
 

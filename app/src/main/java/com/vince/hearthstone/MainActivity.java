@@ -35,6 +35,7 @@ public class MainActivity extends AppCompatActivity {
         resetIB = findViewById(R.id.ResetButton);
         viewIB = findViewById(R.id.ViewButton);
 
+        Analytics.trackEvent("ouverture de l'app");
 
         requestPermissions(new String[]{Manifest.permission.WRITE_EXTERNAL_STORAGE}, 13);
 
